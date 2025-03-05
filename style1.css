@@ -1,0 +1,27 @@
+.loader{
+    margin: 100px;
+}
+.loader img{
+    display: inline-block;
+    width: 0px;
+    height:0px ;
+    border-radius:50px;
+    margin-right: 0px;
+    animation: bounce 8s infinite alternate ;
+}
+
+.loader img:nth-child(2){
+    animation-delay: 3s;
+}
+
+.loader img:nth-child(4){
+    animation-delay: 4s;
+}
+
+@keyframes bounce{
+    to{
+        width: 300px;
+        height: 300px;
+        transform: translate3d(0,100px,0) ;
+    }
+}

@@ -5,13 +5,15 @@
    
 #speedsters:hover img{
 transform: scale(1.3);
+filter: saturate(10);
 }
 
 #hipsters img{
-    transform: scale(1);
+   padding: 3px;
     transition: .3s ease-in-out;
 }
    
 #hipsters:hover img{
 transform: scale(1.3);
+filter: contrast(10);
 }
